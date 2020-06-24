@@ -1,0 +1,16 @@
+{
+  "name": "drive-files-downloader",
+  "version": "1.0.0",
+  "description": "Download google drive files in a queue",
+  "main": "index.js",
+  "author": "Divyanshu Bali",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "cli-progress": "^3.8.2",
+    "googleapis": "39",
+    "readline-sync": "^1.4.10"
+  }
+}
