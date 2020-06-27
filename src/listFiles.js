@@ -26,7 +26,7 @@ function listFiles(auth) {
         )
 
         downloadableFiles.forEach((val, index) => {
-          console.log(`${index + 1} = ${val.name}`)
+          console.log(`${index + 1}\t->\t ${val.name}`)
         })
 
         getDownloadFilesValue(downloadableFiles, drive)
