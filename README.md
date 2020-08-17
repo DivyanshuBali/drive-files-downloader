@@ -6,7 +6,7 @@ CLI to download multiple Google Drive files in a queue.
 
 Use the package manager npm/yarn to install dependencies.
 
-```bash
+```
 yarn install
 
 OR
